@@ -3,21 +3,26 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    /* universal selector to remove all margins, padding, and 
+    set border-box value to box-sixing property for all elements */
 }
 
 /* || GENERAL STYLES */
 
 body {
     background-color: #d9dcd6;
+    /* the entirety of the body will have this hex background-color */
 }
 
 a {
     color: #ffffff;
     text-decoration: none;
+    /* all nav links will be this hex color */
 }
 
 p {
     font-size: 16px;
+    /* all paragraphs will have 16px font size unless specificity changes it */
 }
 
 /* || HEADER */
@@ -27,20 +32,24 @@ p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
+    /* sets properties for the entire header */
 }
-
-/* || NAVIGATION BAR */
 
 .header h1 {
     display: inline-block;
     font-size: 48px;
+    /* displays the header horizontally with a specified font size */
 }
 
 .header h1 .seo {
     color: #d9dcd6;
+    /* changes the specific color of the "seo" in h1 */
 }
 
-.header div {
+/* || NAVIGATION BAR */
+
+.header article {
+    /* switched all div elements to article for better accessibility */
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -50,18 +59,19 @@ p {
 
 /* Nav Links */
 
-.header div ul {
+.header article ul {
     list-style-type: none;
+    /* there are no symbols beside the items in the nav bar */
 }
 
-.header div ul li {
+.header article ul li {
     display: inline-block;
     margin-left: 25px;
+    /* allows us to display nav links horizontally with a margin-left property */
 }
-
 /* || MAIN */
 
-/* Image at top */
+/* || IMAGE AT TOP */
 
 .hero {
     height: 800px;
@@ -70,7 +80,10 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+/* sets the img to cover the entire width below the header
+    with a height of 800 px */
 }
+
 
 /* || CONTENT */
 
@@ -85,12 +98,15 @@ p {
 }
 
 .content {
+    /* stacks the elements vertically with a width 75% of the screen width */
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.content div {
+.content article {
+    /* adds a margin to the bottom, padding, and height of 300px
+    to all articles with content class */
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -121,7 +137,7 @@ p {
     background-color: #2589bd;
 }
 
-.benefits div {
+.benefits article {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -129,6 +145,8 @@ p {
 .benefits h3 {
     margin-bottom: 10px;
     text-align: center;
+    /* all h3 elements will have a margin of 10px below and be alignes
+    in the center of the parent element*/
 }
 
 .benefits img {
