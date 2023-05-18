@@ -84,6 +84,7 @@ p {
 
 /* || CONTENT */
 
+/* separate child element classes were removed in html since the CSS sheet was consolidated to include them all under parent element class */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -126,6 +127,7 @@ p {
 }
 /* || BENEFITS */
 
+/* separate child element classes removed in html due to them being consolidate in the css sheet under one parent element class */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -135,27 +137,27 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
-    /* sets property values for the benefits section */
+    /* sets property values for the benefits class */
 }
 
 .benefits article {
     margin-bottom: 32px;
     color: #ffffff;
-    /* sets spacing and color prooperty of benefits section */
+    /* sets spacing and color prooperty articles in benefits class */
 }
 
 .benefits h3 {
     margin-bottom: 10px;
     text-align: center;
-    /* all header elements will have a margin of 10px at the bottom
-    and be aligned in the center of the Benefits section */
+    /* all header elements in benefits class will have a margin of 10px at the bottom
+    and be aligned in the center */
 }
 
 .benefits img {
     display: block;
-        margin: 10px auto;
+    margin: 10px auto;
     max-width: 150px;
-    /* displays images in Benefits section vertically */
+    /* displays images in benefits section vertically */
 }
 
 /* || FOOTER */
@@ -165,10 +167,8 @@ p {
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-    
     /* adds padding, properties, and pushes the footer below both content
     and benefits section */
-
 }
 
 .footer h4 {
