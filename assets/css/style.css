@@ -11,7 +11,7 @@
 
 body {
     background-color: #d9dcd6;
-    /* the entirety of the body will have this hex background-color */
+    /* body will have this hex background-color as a base */
 }
 
 a {
@@ -38,7 +38,7 @@ p {
 .header h1 {
     display: inline-block;
     font-size: 48px;
-    /* displays the header horizontally with a specified font size */
+    /* displays the header elements horizontally with a specified font size */
 }
 
 .header h1 .seo {
@@ -47,17 +47,16 @@ p {
 }
 
 /* || NAVIGATION BAR */
+ /* switched all div elements in html and CSS codes to article element for better accessibility */
 
 .header article {
-    /* switched all div elements to article for better accessibility */
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+    /* Changes properties for nav links and has them set to the right side of the navigation bar */
 }
-
-/* Nav Links */
 
 .header article ul {
     list-style-type: none;
@@ -71,7 +70,7 @@ p {
 }
 /* || MAIN */
 
-/* || IMAGE AT TOP */
+/* Image at top */
 
 .hero {
     height: 800px;
@@ -80,50 +79,51 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
-/* sets the img to cover the entire width below the header
-    with a height of 800 px */
+/* sets the img to cover the entire width with a height of 800 px below the header */
 }
-
 
 /* || CONTENT */
 
 .float-left {
     float: left;
     margin-right: 25px;
+    /* sets images of top and bottom article elements in 
+    content to the left side of the content section */
 }
 
 .float-right {
     float: right;
     margin-left: 25px;
+    /* sets image in middle article element in content section to the right side of content section */
 }
 
 .content {
-    /* stacks the elements vertically with a width 75% of the screen width */
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+    /* stacks the elements vertically to the left of the page with a width 75% of the screen */
 }
 
 .content article {
-    /* adds a margin to the bottom, padding, and height of 300px
-    to all articles with content class */
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    /* sets the properties for the content section */
 }
 
 .content img {
     max-height: 200px;
+    /* sets image height in content section */
 }
    
 .content h2 {
     margin-bottom: 20px;
     font-size: 36px;
+    /* sets spacing and font size of headers in content section */
 }
-
 /* || BENEFITS */
 
 .benefits {
@@ -135,24 +135,27 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+    /* sets property values for the benefits section */
 }
 
 .benefits article {
     margin-bottom: 32px;
     color: #ffffff;
+    /* sets spacing and color prooperty of benefits section */
 }
 
 .benefits h3 {
     margin-bottom: 10px;
     text-align: center;
-    /* all h3 elements will have a margin of 10px below and be alignes
-    in the center of the parent element*/
+    /* all header elements will have a margin of 10px at the bottom
+    and be aligned in the center of the Benefits section */
 }
 
 .benefits img {
     display: block;
-    margin: 10px auto;
+        margin: 10px auto;
     max-width: 150px;
+    /* displays images in Benefits section vertically */
 }
 
 /* || FOOTER */
@@ -162,9 +165,13 @@ p {
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    
+    /* adds padding, properties, and pushes the footer below both content
+    and benefits section */
+
 }
 
 .footer h4 {
-    /* Changed h2 to h4 to accomodate new footer header tag */
+    /* Changed h2 to h4 for sequential order for better accessibility */
     font-size: 20px;
 }
