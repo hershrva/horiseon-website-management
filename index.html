@@ -44,11 +44,12 @@
 <!-- Switched all div elenents to article for better accessibility -->
 
         <article class="hero"></article>
-        <!-- "content" class created here to lump all child elements into group for CSS -->
+    
         <article class="content">
-            <!-- id attribute added to allow for href link to work 
-                alt property also added to all images -->
-            <article id="search-engine-optimization" class="search-engine-optimization">
+            <!-- id attributes added to allow for href link to work 
+                alt property added to all images for acessibility 
+                removed classes for child elements to consolidate code-->
+            <article id="search-engine-optimization">
                 <img src="./assets/images/search-engine-optimization.jpg" alt="Notebook showing components of Search Engine Optimization" class="float-left" />
                 <h2>Search Engine Optimization</h2>
                 <p>
@@ -56,7 +57,7 @@
                 </p>
             </article>
             
-            <article id="online-reputation-management" class="online-reputation-management">
+            <article id="online-reputation-management">
                 <img src="./assets/images/online-reputation-management.jpg" alt="Person using a laptop and phone to research Online Reputation" class="float-right" />
                 <h2>Online Reputation Management</h2>
                 <p>
@@ -64,7 +65,7 @@
                 </p>
             </article>
             
-            <article id="social-media-marketing" class="social-media-marketing">
+            <article id="social-media-marketing">
                 <img src="./assets/images/social-media-marketing.jpg" alt="People in a meeting about social media marketing" class="float-left" />
                 <h2>Social Media Marketing</h2>
                 <p>
@@ -75,9 +76,8 @@
         </article>
         
         <article class="benefits">
-            
-            <article class="benefit-lead">
-            <!-- alt property added to all img elements for accessibility  -->
+            <!-- classes removed for all child elements to consolidate code -->
+            <article>
                 <h3>Lead Generation</h3>
                 <img src="./assets/images/lead-generation.png" alt="Lead Generation" />
                 <p>
@@ -85,7 +85,7 @@
                 </p>
             </article>
             
-            <article class="benefit-brand">
+            <article>
                 <h3>Brand Awareness</h3>
                 <img src="./assets/images/brand-awareness.png" alt="Brand Awareness" />
                 <p>
@@ -93,7 +93,7 @@
                 </p>
             </article>
             
-            <article class="benefit-cost">    
+            <article>    
                 <h3>Cost Management</h3>
                 <img src="./assets/images/cost-management.png" alt="Cost Management">
                 <p>
@@ -104,16 +104,18 @@
         </article>
     
     </main>
+   
     <!-- footer element added for structure -->
+   
     <footer>
         <article class="footer">
-            <!-- h2 changed to h4 to show sequential order -->
+            <!-- h2 changed to h4 to have headers follow sequential order -->
                <h4>Made with ❤️️ by Horiseon</h4>
             <p>
                 &copy; 2019 Horiseon Social Solution Services, Inc.
             </p>
         </article>
-    </footer>
+     </footer>
 
 </body>
 
