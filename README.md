@@ -9,9 +9,7 @@ Provide a short description explaining the what, why, and how of your project. U
 - The project focused on HTML and CSS codes that are clean and consolidated, allowing for optimized results in Search Engines, sustainability with future browsers, and following accessibility standards.
 - Through the project I learned the importance of accessibility standards and how they relate to HTML semantics.  I learned how browser readers used by those with disabilities rely on clean and organized code to provide a better experience for them through properly coded HTML structure and language. I also improved my understanding of Github and its importance in the coding community and profession through usage of documentation in commits, proper pull request descriptions, and code comments to show documentation and explanations for code and its functionality. 
 
-## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
+## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
