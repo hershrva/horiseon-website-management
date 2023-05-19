@@ -1,5 +1,7 @@
 # Horiseon Website Management
 
+___
+
 ## Description
 
 Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
@@ -8,6 +10,8 @@ Provide a short description explaining the what, why, and how of your project. U
 - This project was built to rework and consolidate code to follow the acceptance criteria guidelines provided by the client.  The criteria was better Search Engine Optimization and a codebase that follows accessibility standards.
 - The project focused on HTML and CSS codes that are clean and consolidated, allowing for optimized results in Search Engines, sustainability with future browsers, and following accessibility standards.
 - Through the project I learned the importance of accessibility standards and how they relate to HTML semantics.  I learned how browser readers used by those with disabilities rely on clean and organized code to provide a better experience for them through properly coded HTML structure and language. I also improved my understanding of Github and its importance in the coding community and profession through usage of documentation in commits, proper pull request descriptions, and code comments to show documentation and explanations for code and its functionality. 
+
+___
 
 ## Table of Contents
 
@@ -18,11 +22,18 @@ Provide a short description explaining the what, why, and how of your project. U
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+Open the browser and then enter the url https://hershrva.github.io/horiseon-website-management/#social-media-marketing into the bar or just simply click this [link] (https://hershrva.github.io/horiseon-website-management/#social-media-marketing "Horiseon Social Solutions, Inc Website").  The webpage will load
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+
+
+    ```md
+    ![Header and Navagation Bar](assets/images/screenshot.png)
+
+    ![Page Body](assets/images/screenshot.png)
+    ```
+The webpage header acts as a navigation bar with the links "Search Engine Optimization", "Online Reputation Management", and "Social Media Marketing" all redirecting you to their respective 
 
 To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
 
