@@ -22,13 +22,13 @@ Open the browser and then enter the url https://hershrva.github.io/horiseon-webs
 
 ## Usage
 
-The webpage header acts as a navigation bar with the links "Search Engine Optimization", "Online Reputation Management", and "Social Media Marketing" (Seen in the first screenshot), all redirecting you to their respective material on the body of the page. (Seen in second screenshot)
+The webpage header acts as a navigation bar with the links "Search Engine Optimization", "Online Reputation Management", and "Social Media Marketing", all redirecting you to their respective material on the body of the page.
 
 The website is then used to give information on different topics concerning Horiseion Social Solution Services, Inc.'s different services they provide through their marketing agency.
 
-    ![Alt text](./assets/images/screenshot.png)
-
-    ![Alt text](./assets/images/screenshot2.png)
+    ![image](./assets/images/screenshot1.png)
+    
+    ![image](./assets/images/Screenshot%202023-05-18%20at%206.10.52%20PM.png)
 
 ## Credits
 
