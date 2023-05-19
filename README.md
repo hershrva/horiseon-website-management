@@ -26,8 +26,9 @@ The webpage header acts as a navigation bar with the links "Search Engine Optimi
 
 The website is then used to give information on different topics concerning Horiseion Social Solution Services, Inc.'s different services they provide through their marketing agency.
 
-    ![image](./assets/images/screenshot1.png)
-    
+
+    ![image](assets/images/Screenshot1.png)
+  
     ![image](assets/images/Screenshot2.png)
 
 ## Credits
