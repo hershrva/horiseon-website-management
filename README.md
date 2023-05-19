@@ -18,7 +18,7 @@ Provide a short description explaining the what, why, and how of your project. U
 
 ## Installation
 
-Open the browser and then enter the url https://hershrva.github.io/horiseon-website-management/#social-media-marketing into the address bar. The website will load.
+Open the browser and then enter the url "https://hershrva.github.io/horiseon-website-management/#social-media-marketing" into the address bar. The website will load.
 
 ## Usage
 
@@ -28,7 +28,7 @@ The website is then used to give information on different topics concerning Hori
 
     ![image](./assets/images/screenshot1.png)
     
-    ![image](./assets/images/Screenshot%202023-05-18%20at%206.10.52%20PM.png)
+    ![image](assets/images/Screenshot2.png)
 
 ## Credits
 
